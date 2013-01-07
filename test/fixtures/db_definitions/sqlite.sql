@@ -152,7 +152,7 @@ create table students (
 create table room_assignments (
 	student_id integer not null,
 	dorm_id integer not null,
-	room_id integer not null	
+	room_id integer not null
 );
 
 create table seats (

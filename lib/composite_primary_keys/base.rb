@@ -153,6 +153,7 @@ module ActiveRecord
       def to_param
         persisted? ? to_key.join(CompositePrimaryKeys::ID_SEP) : nil
       end
+
     end
   end
 end

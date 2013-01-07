@@ -2,7 +2,7 @@ require File.expand_path('../abstract_unit', __FILE__)
 
 class TestCreate < ActiveSupport::TestCase
   fixtures :reference_types, :reference_codes, :streets, :suburbs
-  
+
   CLASSES = {
     :single => {
       :class => ReferenceType,
